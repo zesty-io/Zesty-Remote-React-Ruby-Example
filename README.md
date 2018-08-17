@@ -1,24 +1,12 @@
-# README
+# Zesty React Ruby Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What is this?
 
-Things you may want to cover:
+This is an example project that demonstrates how to use React with Ruby to load data from a Zesty.io instance. This repository is merely a modified version of [this React Ruby CRUD Example](https://github.com/nothingisfunny/fruits-crud-react-rails-app). In inspecting menu.jsx, you can see an example of some data being loaded in through Zesty.io
 
-* Ruby version
+## How do I run the demo on my system?
 
-* System dependencies
+You'll want Ruby version 2.4.4 or higher. I suggest using [`rvm`](https://rvm.io).
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+	bundle install
+	rails s
