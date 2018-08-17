@@ -1,9 +1,12 @@
 const Main = (props) => {
     return(
       <div>
-        <h1>Fruits are great!</h1>
-        <Body />
+        <Header/>
+        <div data-spy="scroll" data-target="#site-navbar" data-offset="200">
+          <Menu/>
+        </div>
       </div>
     )
 }
+
 
