@@ -1,12 +1,11 @@
-const Main = (props) => {
-    return(
+var Main = createReactClass({
+  render: function() {
+  	console.log(this.props)
+    return (
       <div>
-        <Header/>
-        <div data-spy="scroll" data-target="#site-navbar" data-offset="200">
-          <Menu/>
-        </div>
+        <Header activePage={this.props.activePage}/>
+        {this.props.activePage == "home" ? (<Home/>) : (<Menu/>)}
       </div>
-    )
-}
-
-
+    );
+  }
+});
